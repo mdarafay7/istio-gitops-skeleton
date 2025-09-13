@@ -1,0 +1,4 @@
+resources:
+  - peerauthn-default-strict.yaml
+  - authz-deny-all.yaml
+  - authz-allow-productpage-from-reviews.yaml

@@ -1,0 +1,3 @@
+# Optional Helm values for istio ingress (gateway)
+service:
+  type: LoadBalancer

@@ -1,0 +1,9 @@
+# PLACEHOLDER for Bookinfo app
+# Replace this file with:
+# istio-1.23.0/samples/bookinfo/platform/kube/bookinfo.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: placeholder-bookinfo
+data:
+  note: "Replace with Bookinfo manifests from Istio samples"

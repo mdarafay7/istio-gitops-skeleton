@@ -1,0 +1,10 @@
+# PLACEHOLDER for prometheus.yaml
+# Replace this file with the official Istio sample from:
+# istio-1.23.0/samples/addons/prometheus.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: placeholder-prometheus
+  namespace: istio-system
+data:
+  note: "Replace this with prometheus.yaml from Istio samples"

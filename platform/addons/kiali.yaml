@@ -1,0 +1,10 @@
+# PLACEHOLDER for kiali.yaml
+# Replace this file with the official Istio sample from:
+# istio-1.23.0/samples/addons/kiali.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: placeholder-kiali
+  namespace: istio-system
+data:
+  note: "Replace this with kiali.yaml from Istio samples"

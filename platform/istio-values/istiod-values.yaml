@@ -1,0 +1,7 @@
+# Optional Helm values for istiod (tweak as needed)
+global:
+  proxy:
+    resources:
+      requests:
+        cpu: 50m
+        memory: 128Mi

@@ -1,0 +1,9 @@
+# PLACEHOLDER for Bookinfo gateway
+# Replace this file with:
+# istio-1.23.0/samples/bookinfo/networking/bookinfo-gateway.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: placeholder-bookinfo-gateway
+data:
+  note: "Replace with bookinfo-gateway.yaml from Istio samples"

@@ -1,0 +1,5 @@
+resources:
+  - kiali.yaml
+  - jaeger.yaml
+  - grafana.yaml
+  - prometheus.yaml

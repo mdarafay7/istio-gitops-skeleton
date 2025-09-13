@@ -1,0 +1,3 @@
+resources:
+  - destinationrule-reviews.yaml
+  - virtualservice-reviews.yaml

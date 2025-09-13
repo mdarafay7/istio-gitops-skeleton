@@ -1,0 +1,11 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata: { name: productpage }
+spec:
+  hosts: ["productpage"]
+  http:
+  - route:
+    - destination: { host: productpage, port: { number: 9080 } }
+      weight: 100
+    retries: { attempts: 3, perTryTimeout: 1s }
+    timeout: 2s
