@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<YOU>/istio-gitops   # <-- CHANGE THIS
+    repoURL: file:///Users/mdarafay/Documents/istio-gitops-skeleton/.git
     targetRevision: main
     path: environments/minikube/apps
   destination:
