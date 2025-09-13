@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: file:///Users/mdarafay/Documents/istio-gitops-skeleton/.git
+    repoURL: file:///Users/mdarafay/Documents/istio-gitops-skeleton/.gits
     targetRevision: main
     path: environments/minikube/apps
   destination:
