@@ -18,12 +18,14 @@ spec:
           ports:
             - name: http2
               port: 80
-              targetPort: 8080
             - name: https
               port: 443
-              targetPort: 8443
   destination:
     server: https://kubernetes.default.svc
     namespace: istio-system
   syncPolicy:
-    automated: { prune: true, selfHeal: true }
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
